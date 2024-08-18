@@ -1,0 +1,66 @@
+.promo {
+    background: url('../img/bg/promo-bg.png') center (center/cover) no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    padding-bottom: 116px;
+    &__header {
+        padding-top: 23px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__title {
+        max-width: 838px;
+        margin-top: 364px;
+        font-weight: 400;
+        font-size: 57px;
+        color: #e4d8cc; 
+    }
+    &__subtitle {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 23px;
+        color: #c3bab1;   
+    }
+    &__btn-pink {
+        margin-right: 16px;
+        margin-top: 56px;
+        border: 2px solid #7837f3;
+        border-radius: 100px;
+        width: 218px;
+        height: 52px;
+        background: #7837f3; 
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer; 
+    }
+    &__btn {
+        margin-top: 56px;
+        border-radius: 100px;
+        width: 170px;
+        height: 52px;
+        border: none;
+        background: rgba(228, 216, 204, 0.5);
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer; 
+    }
+    a {
+        padding-right: 32px;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #e4d8cc; 
+        text-decoration: none;
+    }
+    img {
+        width: 100%;
+    } 
+}
+

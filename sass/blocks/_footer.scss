@@ -1,0 +1,96 @@
+.footer {
+    background: #101010;
+    overflow-x: hidden;
+    &__header {
+        margin-bottom: 19px;
+        font-weight: 400;
+        font-size: 23px;
+        color: #e4d8cc; 
+    }
+    &__btn-fiol {
+        border: 1px solid #7837f3;
+        border-radius: 100px;
+        width: 215px;
+        height: 42px;
+        background: #7837f3;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #fffaf5;
+        cursor: pointer;
+    }
+    &__btn {
+        border: 1px solid #e4d8cc;
+        border-radius: 100px;
+        width: 251px;
+        height: 42px;
+        background: #101010;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        color: #e4d8cc;
+        cursor: pointer;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 20px;
+        color: #e4d8cc; 
+    }
+    &__link {
+        margin-top: 47px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #e4d8cc;
+        text-decoration: none;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    &__top {
+        display: flex;
+        flex-direction: row;
+    }
+    &__box {
+        margin-top: 48px;
+        margin-bottom: 86px;
+        margin-right: 42px;
+    }
+    &__bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__left {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 185px;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 185px;
+    }
+    &__line {
+        margin-bottom: 28px;
+        height: 2px;
+        background: rgba(228, 216, 204, 0.16);
+    }
+    &__social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__policy {
+        font-weight: 400;
+        font-size: 11px;
+        text-align: right;
+        color: #e4d8cc; 
+    }
+}

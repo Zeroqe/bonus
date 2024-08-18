@@ -1,0 +1,32 @@
+.questions {
+    background: #101010;
+    margin-right: auto;
+    overflow-x: hidden;  
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        margin-top: 118px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__right {
+        margin-top: 118px;
+    }
+    &__title {
+        margin-bottom: 45px;
+        font-weight: 400;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        color: #e4d8cc;   
+    }
+    a {
+        margin-bottom: 52px;
+        display: block;
+        font-weight: 400;
+        font-size: 20px;
+        color: #b99fea;
+        text-decoration: none;
+    }
+}
